@@ -7,30 +7,131 @@
     <meta name="author" content="Naveen Andry">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naveen Andry</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="">About</a>
-            <a href="">Work</a>
-            <a href="">Services</a>
-            <a href="">Hit Me Up</a>
-        </nav>
+    <header id="navigationBar">
+        <div>
+            <nav class="main">
+                <a href="#about">About</a>
+                <a href="#projects">Work</a>
+                <a href="#services">Services</a>
+                <a href="#hitMeUp">Hit Me Up</a>
+            </nav>
+        </div>
     </header>
 
-    <section>
+    <section id="home">
         <div>
             <h1>Allow Me to Shape Your Future</h1>
-            <nav>
+            <br>
+            <nav class="footer">
                 <a href="">Dig Into My World</a>
                 <a href="">Explore Services</a>
             </nav>
         </div>
     </section>
 
-    <section>
-        <pre><h2>PROJECTS</h2><h2>Dig Into My World</h2>
-        </pre>
+    <section id="projects">
+        <div class="section2">
+            <h2>PROJECTS</h2>
+            <h2>Dig Into My World</h2>
+            <br><br>
+        </div>
+        <div>
+            <img src="assets/images/chat-app.jpg" title="chatApplication" alt="Chat Application Image" height="300">
+            <img src="assets/images/bakery.jpg" title="bakeryApplication" alt="Bakery Application Image" height="300">
+            <img src="assets/images/hallway-garage.jpg" title="carApplication" alt="carparkApplication Image" height="300">
+        </div>
+    </section>
+
+    <section id="services">
+        <div>
+            <h2>SERVICES</h2>
+            <h2>What I Offer?</h2>
+        </div>
+        <!--website section-->
+        <div>
+            <h3>Websites</h3>
+            <br>
+            <p>Unique, Modern and Customized designs</p>
+            <p>Responsive, Accessible development</p>
+            <p>Animations and Interactions</p>
+            <p>Long-lasting, Impactful User Experience</p>
+            <br><br>
+            <h4>Rs.30000-50000</h4>
+            <a href="#hitMeUp">Hit Me Up</a>
+        </div>
+        <br><br>
+        <!--pos system section-->
+        <div>
+            <h3>Pos Systems</h3>
+            <br>
+            <p>Unique, Modern and Customized designs</p>
+            <p>Responsive, Accessible development</p>
+            <p>Accuracy and Efficiency for Users</p>
+            <p>Reporting and Analytics</p>
+            <p>Ultimate Security</p>
+            <br><br>
+            <h4>Rs.100000-150000</h4>
+            <a href="#hitMeUp">Hit Me Up</a>
+        </div>
+        <br><br>
+        <!--custom section-->
+        <div>
+            <h3>Custom</h3>
+            <br>
+            <p>Do you have a problem that doesn't suit any of the packages? - I’m your solution provider. Ask what you want without further hesitation.</p>
+            <a href="#hitMeUp">Hit Me Up</a>
+        </div>
+    </section>
+    <br><br>
+    <section id="hitMeUp">
+        <div>
+            <h2>HIT ME UP</h2>
+        </div>
+        <br><br>
+        <!--Left Side-->
+        <div>
+            <h2>Got a problem to be solved?</h2>
+            <p>Feel free to express your ideas to develop your dream product...</p>
+        </div>
+        <!--Right Side-->
+        <div>
+            <form>
+                <p>Name*</p>
+                <input type="text" placeholder="Enter your name">
+                <br><br>
+                <p>Email*</p>
+                <input type="text" placeholder="Enter your email">
+                <br><br>
+                <p>Message*</p>
+                <input type="text" placeholder="Enter your message" width="100" height="100">
+            </form>
+            <button>
+                <input type="submit" value="Submit">
+            </button>
+        </div>
+    </section>
+    <section id="about">
+        <div>
+            <h2>ABOUT</h2>
+            <h2>Who Am I?</h2>
+            <br><br>
+        </div>
+        <!--Left Side-->
+        <div>
+            <img src="assets/images/me.jpg" alt="me" title="It's me">
+        </div>
+        <!--Right Side-->
+        <div>
+            <!--Logo-->
+            <video controls autoplay loop muted >
+                <source src="assets/videos/logo.mp4" type="video/mp4">
+            </video>
+            <br>
+            <p>Greetings! I'm Andry, a dedicated freelancer hailing from the vibrant landscape of Sri Lanka. My passion lies in crafting cutting-edge websites and software solutions, where I blend my expertise in both software and web development. With a comprehensive grasp of full-stack design, I specialize in bringing futuristic digital experiences to life. Let's embark on a journey to redefine the boundaries of possibility together.</p>
+        </div>
     </section>
 </body>
 </html>
