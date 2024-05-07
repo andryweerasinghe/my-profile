@@ -9,9 +9,6 @@
 /*    background-size: cover;*/
 /*    background-position: inherit;*/
 /*}*/
-.container{
-    padding: 10px 10%;
-}
 .main{
     display: flex;
     align-items: center;
@@ -19,6 +16,9 @@
     justify-content: space-evenly;
     /*justify-content: space-between;*/
     flex-wrap: wrap;
+}
+.main>a:hover{
+    background: beige;
 }
 .footer{
     display: flex;
@@ -31,4 +31,29 @@ a{
 }
 .section2{
     justify-content: center;
+}
+#navigationBar {
+    background-color: #f0f0f0; /* Background color for the header */
+    padding: 10px; /* Add padding to the header */
+    width: 70%;
+    position: fixed; /* Fixed positioning */
+    top: 0; /* Stick the header to the top of the viewport */
+    z-index: 1000; /* Ensure the header appears above other content */
+    justify-content: center;
+}
+.container {
+    border: 2px solid transparent; /* Border around the container */
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+    padding: 5px; /* Add padding to the container */
+}
+#navigationBar.container.highlighted {
+    border-color: #007bff; /* Change border color when highlighted */
+}
+#home {
+    background: linear-gradient(to bottom, coral, lightblue);
+}
+#home>div>h1{
+    font-size: 9em; /* Adjust the font size to fill the screen */
+    font-family: "DejaVu Sans", sans-serif; /* Replace 'Your Beautiful Font' with the name of the desired font */
+    color: #333; /* Font color */
 }
