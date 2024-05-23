@@ -1,0 +1,291 @@
+html{
+    scroll-behavior: smooth;
+}
+ body{
+     background-color: #FFF07C;
+     font-family: "Sen", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+ }
+ #ellipse{
+     background-color: #0D1321;
+     width: 100%;
+     height: 1290px;
+     clip-path: ellipse(92% 58% at 12% 1%);
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: -1;
+ }
+ header{
+     position: relative;
+     top: 0;
+     width: 100%;
+     height: 80px;
+     z-index: 1000;
+ }
+ header>#logo{
+     width: 170px;
+     height: 57px;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 35px;
+     margin: auto;
+     opacity: 0.8;
+ }
+#logo video {
+    display: block; /* Ensures the video is a block element */
+    width: 170px;
+    height: 170px;
+    object-fit: cover; /* Ensures the video covers the specified dimensions without distortion */
+    padding: 0; /* Removes any default padding */
+    margin: 0; /* Removes any default margin */
+    border-radius: 100px;
+    border: 4px solid #E1B12C;
+}
+header>nav {
+    height: fit-content;
+    position: absolute;
+    font-weight: 400;
+    font-size: 22px;
+    right: 120px;
+    bottom: 28%;
+}
+header>nav>a {
+    color: #E0E0E0;
+    text-decoration: none;
+    margin-right: 35px;
+    width: 122px;
+    height: 29px;
+    display: inline-block;
+    text-align: center;
+    transition: .3s ease-in-out;
+}
+header>nav>a:first-child {
+    border: 3px solid #E1B12C;
+    border-radius: 20px;
+    font-weight: bold;
+}
+header>nav>a:nth-child(2):hover,header>nav>a:nth-child(3):hover,
+header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
+    color: #ffc92c;
+    font-weight: bold;
+}
+#hero-section {
+    position: relative;
+    height: 690px;
+    width: 88%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#hero-section>#right-side {
+    width: 689px;
+    height: 694px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: url("../images/its_me.png") center no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#hero-section>#left-side {
+    color: #E0E0E0;
+    font-weight: 400;
+    font-size: 35px;
+}
+#hero-section>#left-side>.social-media {
+    height: 100px;
+    width: 470px;
+    position: absolute;
+    bottom: 35px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero-section>#left-side>.socials>.github {
+    height: 75px;
+    aspect-ratio: 1/1;
+    background: url("../images/socialMediaLogos/gihub.jpeg") center;
+    margin-right: 15px;
+    background-size: cover;
+    border-radius: 100%;
+    transition-duration: 0.2s;
+}
+#hero-section>#left-side>.socials>.linkedin {
+    height: 75px;
+    aspect-ratio: 1/1;
+    background: url("../images/socialMediaLogos/linkedin.jpeg") center;
+    background-size: 90px 90px;
+    margin-right: 15px;
+    border-radius: 100%;
+    transition-duration: 0.2s;
+}
+
+#hero-section>#left-side>.socials>.medium {
+    height: 75px;
+    aspect-ratio: 1/1;
+    background: url("../images/socialMediaLogos/Mediumlogo.jpeg") center no-repeat;
+    background-size: 75px 75px;
+    margin-right: 15px;
+    border-radius: 100%;
+    transition-duration: 0.2s;
+}
+
+#hero-section>#left-side>.socials>.stack-overflow {
+    height: 75px;
+    aspect-ratio: 1/1;
+    background: url("../images/socialMediaLogos/StackoverflowLogo.jpeg") center no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    border-radius: 100%;
+    transition-duration: 0.2s;
+}
+
+#hero-section>#left-side>.socials>.instagram {
+    height: 76px;
+    aspect-ratio: 1/1;
+    background: url("../images/socialMediaLogos/insta-removebg-preview.png") no-repeat -10px -11px;
+    background-size: 98px 98px;
+    margin-right: 15px;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+}
+
+#introduction {
+    height: 400px;
+    width: 650px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#introduction>h2>#name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 45px;
+    color: #E1B12C;
+}
+
+.professions {
+    width: 420px;
+    height: 40px;
+    top: 192px;
+    position: absolute;
+    left: 190px;
+    overflow: hidden;
+}
+
+#introduction>div>span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 34px;
+    color: #E1B12C;
+    display: block;
+    animation: spin_words 6s infinite;
+}
+
+#introduction>h3 {
+    position: absolute;
+    display: block;
+    top: 260px;
+    color: #E1B12C;
+}
+
+.line-left>hr,.line-right>hr {
+    height: 3px;
+    width: 37dvw;
+    border: 0;
+    background: #0D1321;
+}
+
+.line-left {
+    position: absolute;
+    left: 0;
+    top: 22px;
+}
+
+.line-right {
+    position: absolute;
+    right: 0;
+    top: 22px;
+}
+
+#about {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    top: 140px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #FFF07C;
+}
+
+#about>h1 {
+    width: 230px;
+    height: 60px;
+    color: #0D1321;
+    font-weight: bolder;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+    margin: auto;
+}
+
+#about-left {
+    width: 696px;
+    height: 680px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: url("../gif/Programming (1).gif") center no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#about-right {
+    height: 400px;
+    width: 741px;
+    position: absolute;
+    font-weight: bold;
+    color: #0D1321;
+    font-size: 28px;
+    text-align: center;
+    top: 30px;
+    bottom: 0;
+    right: 120px;
+    margin: auto;
+}
+
+#about-right>p:nth-child(2) {
+    display: none;
+}
+
+#line-long_01>hr {
+    height: 3px;
+    width: 55dvw;
+    border: 0;
+    background: #192A56;
+    position: absolute;
+    right: 0;
+    top: 22px;
+}

@@ -1,168 +1,670 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Portfolio">
-    <meta name="keywords" content="naveen andry software engineer fullstack developer programming">
-    <meta name="author" content="Naveen Andry">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Website Title -->
     <title>Naveen Andry</title>
-    <link rel="stylesheet" href="assets/normalize.css">
-<!--    <link rel="stylesheet" href="styles.css">-->
-<!--    Font Awesome-->
-    <link rel="stylesheet" href="assets/fontAwesome/fontawesome-free-6.5.1-web/css/all.min.css">
-    <link rel="stylesheet" href="assets/styles/nav.css">
-<!--    Bootstrap-->
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<!--    Text Rotator-->
+    <!-- Bootstrap -->
+<!--    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+    <!-- Font-Awesome -->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Text Rotator-->
     <link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/styles/style.css">
-
+    <!-- FlexSlider -->
+    <link href="assets/flexslider/flexslider.css" rel="stylesheet">
+    <!-- Theme Style -->
+<!--    <link href="assets/styles/style.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="assets/styles/homepage.css">
+    <!-- Animations -->
+    <link href="assets/styles/animate.css" rel="stylesheet">
+    <!-- Custom Favicon -->
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv/html5shiv.js"></script>
+    <script src="assets/respond/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body>
-    <header id="navigationBar">
-        <div class="container">
-            <nav class="main">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#projects">Work</a>
-                <a href="#services">Services</a>
-                <a href="#hitMeUp">Hit Me Up</a>
-            </nav>
-        </div>
-    </header>
+<body id="top">
 
-    <section id="home">
-        <div>
-            <h1>Allow Me to Shape Your Future</h1>
-            <br>
-            <nav class="footer">
-                <a href="">Dig Into My World</a>
-                <a href="">Explore Services</a>
-            </nav>
-        </div>
-    </section>
+<!-- ****************************** Preloader ************************** -->
+<div id="preloader"></div>
 
-    <section id="projects">
-        <div class="section2">
-            <h2>PROJECTS</h2>
-            <h2>Dig Into My World</h2>
-            <br><br>
-        </div>
-        <div>
-            <img src="assets/images/chat-app.jpg" title="chatApplication" alt="Chat Application Image" height="300">
-            <img src="assets/images/bakery.jpg" title="bakeryApplication" alt="Bakery Application Image" height="300">
-            <img src="assets/images/hallway-garage.jpg" title="carApplication" alt="carparkApplication Image" height="300">
-        </div>
-    </section>
+<div id="ellipse"></div>
+<!-- ==========================
+HEADER SECTION
+=========================== -->
+<header>
+    <div id="logo">
+        <video autoplay loop muted playsinline preload="auto">
+            <source src="assets/videos/logo.mp4" width="170" height="57">
+        </video>
+    </div>
 
-    <section id="services">
-        <div>
-            <h2>SERVICES</h2>
-            <h2>What I Offer?</h2>
-        </div>
-        <!--website section-->
-        <div>
-            <h3>Websites</h3>
-            <br>
-            <p>Unique, Modern and Customized designs</p>
-            <p>Responsive, Accessible development</p>
-            <p>Animations and Interactions</p>
-            <p>Long-lasting, Impactful User Experience</p>
-            <br><br>
-            <h4>Rs.30000-50000</h4>
-            <a href="#hitMeUp">Hit Me Up</a>
-        </div>
-        <br><br>
-        <!--pos system section-->
-        <div>
-            <h3>Pos Systems</h3>
-            <br>
-            <p>Unique, Modern and Customized designs</p>
-            <p>Responsive, Accessible development</p>
-            <p>Accuracy and Efficiency for Users</p>
-            <p>Reporting and Analytics</p>
-            <p>Ultimate Security</p>
-            <br><br>
-            <h4>Rs.100000-150000</h4>
-            <a href="#hitMeUp">Hit Me Up</a>
-        </div>
-        <br><br>
-        <!--custom section-->
-        <div>
-            <h3>Custom</h3>
-            <br>
-            <p>Do you have a problem that doesn't suit any of the packages? - I’m your solution provider. Ask what you want without further hesitation.</p>
-            <a href="#hitMeUp">Hit Me Up</a>
-        </div>
-    </section>
-    <br><br>
-    <section id="hitMeUp">
-        <div>
-            <h2>HIT ME UP</h2>
-        </div>
-        <br><br>
-        <!--Left Side-->
-        <div>
-            <h2>Got a problem to be solved?</h2>
-            <p>Feel free to express your ideas to develop your dream product...</p>
-            <br>
-            <p>And also, you can reach out to me through the following professional platforms</p>
-            <br>
-            <img src="assets/images/socialMediaLogos/gihub.jpeg" alt="github" title="Github Link" width="71" height="68">
-            <img src="assets/images/socialMediaLogos/insta-removebg-preview.png" alt="insta" title="Instagram Link" width="76" height="73">
-            <img src="assets/images/socialMediaLogos/Mediumlogo.jpeg" alt="medium" title="Medium Link" width="67" height="68">
-            <img src="assets/images/socialMediaLogos/linkedin.jpeg" alt="linkedin" title="Linkedin Link" width="68" height="68">
-            <img src="assets/images/socialMediaLogos/StackoverflowLogo.jpeg" alt="stackOverFlow" title="Stack Overflow Link" width="69" height="68">
-        </div>
-        <!--Right Side-->
-        <div>
-            <form>
-                <p>Name*</p>
-                <input type="text" placeholder="Enter your name">
-                <br><br>
-                <p>Email*</p>
-                <input type="text" placeholder="Enter your email">
-                <br><br>
-                <p>Message*</p>
-                <input type="text" placeholder="Enter your message" width="100" height="100">
-            </form>
-            <button>
-                <input type="submit" value="Submit">
-            </button>
-        </div>
-    </section>
-    <section id="about">
-        <div>
-            <h2>ABOUT</h2>
-            <h2>Who Am I?</h2>
-            <br><br>
-        </div>
-        <!--Left Side-->
-        <div>
-            <img src="assets/images/me.jpg" alt="me" title="It's me">
-        </div>
-        <!--Right Side-->
-        <div>
-            <!--Logo-->
-            <video controls autoplay loop muted >
-                <source src="assets/videos/logo.mp4" type="video/mp4">
-            </video>
-            <br>
-            <p>Greetings! I'm Andry, a dedicated freelancer hailing from the vibrant landscape of Sri Lanka. My passion lies in crafting cutting-edge websites and software solutions, where I blend my expertise in both software and web development. With a comprehensive grasp of full-stack design, I specialize in bringing futuristic digital experiences to life. Let's embark on a journey to redefine the boundaries of possibility together.</p>
-            <br>
-            <img src="assets/images/socialMediaLogos/gihub.jpeg" alt="github" title="Github Link" width="71" height="68">
-            <img src="assets/images/socialMediaLogos/insta-removebg-preview.png" alt="insta" title="Instagram Link" width="76" height="73">
-            <img src="assets/images/socialMediaLogos/Mediumlogo.jpeg" alt="medium" title="Medium Link" width="67" height="68">
-            <img src="assets/images/socialMediaLogos/linkedin.jpeg" alt="linkedin" title="Linkedin Link" width="68" height="68">
-            <img src="assets/images/socialMediaLogos/StackoverflowLogo.jpeg" alt="stackOverFlow" title="Stack Overflow Link" width="69" height="68">
-        </div>
-    </section>
-    <!--Footer-->
-    <footer>
-        <div>© 2023 Naveen Andry. All rights reserved</div>
-    </footer>
+    <nav class="navbar">
+        <a href="#home" style="--i:0">Home</a>
+        <a href="#about" style="--i:1">About</a>
+        <a href="#projects" style="--i:2">Education</a>
+        <a href="#services" style="--i:3">Projects</a>
+        <a href="#hitMeUp" style="--i:4">Contact Me</a>
+    </nav>
 
-    <script src="assets/fontAwesome/fontawesome-free-6.5.1-web/js/all.min.js"></script>
+    <div id="phone"></div>
+</header>
+
+<section id="hero-section">
+    <div id="left-side">
+        <div id="introduction">
+            <h1>Allow Me To Shape Your Future</h1>
+            <h1 id="name">
+                N<span style="color:#E04343;">A</span>VEEN<br/>
+                <span><span style="color:#FFE800">A</span>NDRY</span>
+            </h1>
+            <div class="professions">
+                <span>Web Developer</span>
+                <span>Front-End Developer</span>
+                <span>Back-End Developer</span>
+                <span>And Always A Student</span>
+            </div>
+        </div>
+        
+        <div class="social-media">
+            <a href="https://github.com/andryweerasinghe" target="_blank" class="github"></a>
+            <a href="www.linkedin.com/in/naveen-andry-3bb304b5" target="_blank" class="linkedin"></a>
+            <a href="https://medium.com/@andryweerasinghe" target="_blank" class="medium"></a>
+            <a href="https://stackoverflow.com/users/23271991/naveen-andry" target="_blank" class="stack-overflow"></a>
+            <a href="https://www.instagram.com/andry_mr.electrix/" target="_blank" class="instagram"></a>
+        </div>
+    </div>
+    <div id="right-side"></div>
+</section>
+
+<section id="about">
+    <div class="line-left"><hr></div>
+    <div class="line-right"><hr></div>
+    <h1>A LITTLE ABOUT ME</h1>
+
+    <div id="about-left"></div>
+    <div id="about-right">
+        <p>
+            Greetings! I'm Andry, a dedicated freelancer hailing from the vibrant landscape of Sri Lanka. My passion lies in crafting cutting-edge <span>websites</span> and software solutions, where I blend my expertise in both software and web development. With a comprehensive grasp of full-stack design, I specialize in bringing futuristic digital experiences to life. Let's embark on a journey to redefine the boundaries of possibility together.
+        </p>
+
+    </div>
+</section>
+
+<section id="services">
+    <div id="websites">
+        <h1>Websites</h1>
+        <div id="website-desc">
+            <ol>
+                <li>Unique, modern and customized designs</li>
+                <li>Responsive, accessible development</li>
+                <li>Animations and interactions</li>
+                <li>Long-lasting, impactful user experience</li>
+            </ol>
+            <h2>Rs. 30000 - 50000</h2>
+        </div>
+    </div>
+    <div id="pos">
+        <h1>POS Systems</h1>
+        <div id="pos-desc">
+            <ol>
+                <li>Unique, modern and customized designs</li>
+                <li>Responsive, accessible development</li>
+                <li>Accuracy and efficiency for users</li>
+                <li>Reporting and analytics</li>
+                <li>Ultimate Security</li>
+            </ol>
+            <h2>Rs. 100000 - 150000</h2>
+        </div>
+    </div>
+    <div id="custom">
+        <h1>Custom</h1>
+        <p>Do you have a problem that doesn't suit any of the above packages? - I'm your solution provider. Ask what you want without further hesitation.</p>
+    </div>
+</section>
+<!--<header id="home">-->
+<!--    &lt;!&ndash; creative menu &ndash;&gt;-->
+<!--    <div class="container-fluid">-->
+<!--        <div class="row">-->
+<!--            <div class="menu-wrap">-->
+<!--                <nav class="menu">-->
+<!--                    &lt;!&ndash; Menu Links &ndash;&gt;-->
+<!--                    <div class="icon-list">-->
+<!--                        <a href="index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>-->
+<!--                        <a href="index.html#about"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>-->
+<!--                        <a href="index.html#projects"><i class="fa fa-fw fa-globe"></i><span>Projects</span></a>-->
+<!--                        <a href="index.html#services"><i class="fa fa-fw fa-picture-o"></i><span>Services</span></a>-->
+<!--                        <a href="index.html#hitMeUp"><i class="fa fa-fw fa-envelope-o"></i><span>Hit Me Up</span></a>-->
+<!--                    </div>-->
+<!--                </nav>-->
+<!--            </div>-->
+<!--            <button class="menu-button" id="open-button"></button>&lt;!&ndash; menu button &ndash;&gt;-->
+<!--        </div>&lt;!&ndash;/row&ndash;&gt;-->
+<!--    </div>&lt;!&ndash;/container&ndash;&gt;-->
+<!--    &lt;!&ndash; Header Image &ndash;&gt;-->
+<!--    <section class="hero" id="hero" style="background-color: #0D1321">-->
+<!--        <div class="container">-->
+<!--            &lt;!&ndash; Slider Button (don't edit!)&ndash;&gt;-->
+<!--            <div class="row">-->
+<!--                <div class="col-md-12 text-right navicon">-->
+<!--                    <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            &lt;!&ndash; HEADER HEADLINE &ndash;&gt;-->
+<!--            <div class="row">-->
+<!--                <div class="col-md-8 col-md-offset-1 name-display">-->
+<!--                    <h1 class="animated fadeInDown">-->
+<!--                        N<span style="color:#E04343;">A</span>VEEN<br/>-->
+<!--                        <span><span style="color:#FFE800">A</span>NDRY</span>-->
+<!--                    </h1>&lt;!&ndash; Title &ndash;&gt;-->
+<!--                    <h3 class="animated fadeInUp delay-05s"><span class="rotate">Web Designer,Photographer,3d Artist</span></h3>&lt;!&ndash; Text Rotator &ndash;&gt;-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            &lt;!&ndash; Learn More Button &ndash;&gt;-->
+<!--            <div class="row">-->
+<!--                <div class="col-md-6 col-md-offset-3 text-center">-->
+<!--                    <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">-->
+<!--                        <p>SEE MORE</p>-->
+<!--                        <p class="scrollto&#45;&#45;arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>-->
+<!--                    </a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    &lt;!&ndash; Header Image End &ndash;&gt;-->
+<!--</header>-->
+<!-- ==========================
+HEADER SECTION END
+=========================== -->
+
+
+
+
+<!-- ==========================
+ABOUT SECTION
+=========================== -->
+<!--<section class="intro text-center section-padding color-bg" id="about">-->
+<!--    <div class="container">-->
+<!--        &lt;!&ndash; WELCOME TEXT &ndash;&gt;-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-8 col-md-offset-2 wp1">-->
+<!--                <h1 class="arrow">A little <span>about</span> me</h1>&lt;!&ndash; Headline &ndash;&gt;-->
+<!--                &lt;!&ndash; about / welcome text &ndash;&gt;-->
+<!--                <p>Greetings! I'm Andry, a dedicated freelancer hailing from the vibrant landscape of Sri Lanka. My passion lies in crafting cutting-edge websites and software solutions, where I blend my expertise in both software and web development. With a comprehensive grasp of full-stack design, I specialize in bringing futuristic digital experiences to life. Let's embark on a journey to redefine the boundaries of possibility together.</p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+
+
+
+<!-- ==========================
+        SERVICE SECTION
+        =========================== -->
+<!--<section class="features text-center section-padding" id="services">-->
+<!--    <div class="container">-->
+<!--        &lt;!&ndash; Headline &ndash;&gt;-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12">-->
+<!--                <h1 class="arrow">What I Offer?</h1>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12" >-->
+<!--                <div class="services" style="justify-content: flex-end;display: flex;align-content: center;flex-wrap: wrap;">-->
+<!--                    &lt;!&ndash; Service Box 1 &ndash;&gt;-->
+<!--                    <div class="col-md-4 wp2 item">-->
+<!--                        <div class="icon">-->
+<!--                            <i class="fa fa-camera"></i>&lt;!&ndash; Icon &ndash;&gt;-->
+<!--                        </div>-->
+<!--                        <h2>Website</h2>&lt;!&ndash; Title &ndash;&gt;-->
+<!--                        <div>-->
+<!--                            <li>Unique, modern and customized designs</li>-->
+<!--                            <li>Responsive, accessible development</li>-->
+<!--                            <li>Animations and interactions</li>-->
+<!--                            <li>Long-lasting, impactful user experience</li>-->
+<!--                            <br><br>-->
+<!--                            <b>Rs.30000 - 50000</b>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash; Service Box 2 &ndash;&gt;-->
+<!--                    <div class="col-md-4 wp2 item delay-05s">-->
+<!--                        <div class="icon">-->
+<!--                            <i class="fa fa-desktop"></i>&lt;!&ndash; Icon &ndash;&gt;-->
+<!--                        </div>-->
+<!--                        <h2>POS Systems</h2>&lt;!&ndash; Title &ndash;&gt;-->
+<!--                        <div>-->
+<!--                            <li>Unique, modern and customized designs</li>-->
+<!--                            <li>Responsive, accessible development</li>-->
+<!--                            <li>Accuracy and efficiency for users</li>-->
+<!--                            <li>Reporting and analytics</li>-->
+<!--                            <li>Ultimate security</li>-->
+<!--                            <br><br>-->
+<!--                            <b>Rs.100000 - 150000</b>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash; Service Box 3 &ndash;&gt;-->
+<!--                    <div class="col-md-4 wp2 item delay-1s">-->
+<!--                        <div class="icon">-->
+<!--                            <i class="fa fa-cubes"></i>&lt;!&ndash; Icon &ndash;&gt;-->
+<!--                        </div>-->
+<!--                        <h2>Custom</h2>&lt;!&ndash; Title &ndash;&gt;-->
+<!--                        <p>Do you have a problem that doesn’t suit any of the packages? - I’m your solution provider. Ask what you want without further hesitation.</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="clearfix"></div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+
+
+
+
+<div class="container-fluid">
+    <!-- About 1 -->
+    <div class="row color-bg">
+        <div class="col-md-6 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(img/about1.png)"></div><!-- about image 1 -->
+        </div>
+        <div class="col-md-6 about-text">
+            <h6>High quality webdesign</h6><!-- headline-->
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 1 -->
+            <a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->
+        </div>
+    </div>
+    <!-- About 2 -->
+    <div class="row">
+        <div class="col-md-6 about-text">
+            <h6>Professional Photography</h6><!-- Headline -->
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 2 -->
+            <a href="index.html#team" class="weight-outline-btn">Read more</a>	<!-- read more button  -->
+        </div>
+        <div class="col-md-6 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(img/about2.png)"></div><!-- about image 2 -->
+        </div>
+    </div>
+    <!-- About 3 -->
+    <div class="row color-bg">
+        <div class="col-md-6 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(img/about3.png)"></div><!-- about image 3 -->
+        </div>
+        <div class="col-md-6 about-text">
+            <h6>3d modeling and animations</h6><!-- Headline-->
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 3 -->
+            <a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->
+        </div>
+    </div>
+</div>
+<!-- ==========================
+ABOUT SECTION END
+=========================== -->
+
+
+
+
+<!--		&lt;!&ndash; ==========================-->
+<!--        PORTFOLIO SECTION-->
+<!--    =========================== &ndash;&gt;-->
+<!--        <section class="swag text-center" id="portfolio">-->
+<!--          <div class="container">-->
+<!--		    &lt;!&ndash; Headline &ndash;&gt;-->
+<!--            <div class="row">-->
+<!--              <h1 class="arrow">-->
+<!--                Recent <span>Porojects</span>-->
+<!--              </h1>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </section>-->
+
+<!--        <div class="container">-->
+<!--          <div class="row row-offset-0">-->
+<!--  				 -->
+<!--          &lt;!&ndash; PORTFOLIO ITEM 1 &ndash;&gt;-->
+<!--          <div class="col-md-3 col-sm-6">-->
+<!--              <div class="overlay-effect effects clearfix">-->
+<!--                  <div class="img">-->
+<!--                      <a href="img/portfolio/portfolio-01-large.jpg" data-lightbox="roadtrip" title="Project One - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-01-thumbnail.jpg" alt="Portfolio Item"></a>-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--          </div>-->
+<!--  	    &lt;!&ndash; PORTFOLIO ITEM END &ndash;&gt;-->
+<!--  	-->
+<!--  	    &lt;!&ndash; PORTFOLIO ITEM 2 &ndash;&gt;-->
+<!--          <div class="col-md-3 col-sm-6">-->
+<!--              <div class="overlay-effect effects clearfix">-->
+<!--                  <div class="img">-->
+<!--                      <a href="img/portfolio/portfolio-02-large.jpg" data-lightbox="roadtrip" title="Project Two - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-02-thumbnail.jpg" alt="Portfolio Item"></a>-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--          </div>-->
+<!--  	    &lt;!&ndash; PORTFOLIO ITEM END &ndash;&gt;-->
+<!--  					-->
+<!--  		&lt;!&ndash; PORTFOLIO ITEM 3 &ndash;&gt;-->
+<!--          <div class="col-md-3 col-sm-6">-->
+<!--              <div class="overlay-effect effects clearfix">-->
+<!--                  <div class="img">-->
+<!--                      <a href="img/portfolio/portfolio-03-large.jpg" data-lightbox="roadtrip" title="Project Three - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-03-thumbnail.jpg" alt="Portfolio Item"></a>-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--          </div>-->
+<!--  	    &lt;!&ndash; PORTFOLIO ITEM END &ndash;&gt;-->
+<!--  					-->
+<!--  		&lt;!&ndash; PORTFOLIO ITEM 4 &ndash;&gt;-->
+<!--          <div class="col-md-3 col-sm-6 ">-->
+<!--              <div class="overlay-effect effects clearfix">-->
+<!--                  <div class="img">-->
+<!--                      <a href="img/portfolio/portfolio-04-large.jpg" data-lightbox="roadtrip" title="Project Four - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-04-thumbnail.jpg" alt="Portfolio Item"></a>-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--          </div>-->
+<!--  	    &lt;!&ndash; PORTFOLIO ITEM END &ndash;&gt;-->
+<!--  	             -->
+<!--          &lt;!&ndash; PORTFOLIO ITEM 5 &ndash;&gt;-->
+<!--          <div class="col-md-3 col-sm-6 ">-->
+<!--              <div class="overlay-effect effects clearfix">-->
+<!--                  <div class="img">-->
+<!--                      <a href="img/portfolio/portfolio-05-large.jpg" data-lightbox="roadtrip" title="Project Five - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-05-thumbnail.jpg" alt="Portfolio Item"></a>-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--          </div>-->
+<!--  	    &lt;!&ndash; PORTFOLIO ITEM END &ndash;&gt;-->
+<!--  	-->
+<!--  	    &lt;!&ndash; PORTFOLIO ITEM 6 &ndash;&gt;-->
+<!--          <div class="col-md-3 col-sm-6">-->
+<!--              <div class="overlay-effect effects clearfix">-->
+<!--                  <div class="img">-->
+<!--                      <a href="img/portfolio/portfolio-06-large.jpg" data-lightbox="roadtrip" title="Project Six - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-06-thumbnail.jpg" alt="Portfolio Item"></a>-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--          </div>-->
+<!--  	    &lt;!&ndash; PORTFOLIO ITEM END &ndash;&gt;-->
+<!--  					-->
+<!--  		&lt;!&ndash; PORTFOLIO ITEM 7 &ndash;&gt;-->
+<!--          <div class="col-md-3 col-sm-6">-->
+<!--              <div class="overlay-effect effects ">-->
+<!--                  <div class="img">-->
+<!--                      <a href="img/portfolio/portfolio-07-large.jpg" data-lightbox="roadtrip" title="Project Seven - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-07-thumbnail.jpg" alt="Portfolio Item"></a>-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--          </div>-->
+<!--  	    &lt;!&ndash; PORTFOLIO ITEM END &ndash;&gt;-->
+<!--  					-->
+<!--  		&lt;!&ndash; PORTFOLIO ITEM 8 &ndash;&gt;-->
+<!--          <div class="col-md-3 col-sm-6">-->
+<!--              <div class="overlay-effect effects clearfix">-->
+<!--                  <div class="img">-->
+<!--                      <a href="img/portfolio/portfolio-08-large.jpg" data-lightbox="roadtrip" title="Project Eight - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-08-thumbnail.jpg" alt="Portfolio Item"></a>-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--          </div>-->
+<!--  	    &lt;!&ndash; PORTFOLIO ITEM END &ndash;&gt;-->
+<!--        </div>&lt;!&ndash;/row&ndash;&gt;-->
+<!--      </div>&lt;!&ndash;/.container&ndash;&gt;-->
+<!--		&lt;!&ndash; ==========================-->
+<!--        PORTFOLIO SECTION END-->
+<!--        =========================== &ndash;&gt;-->
+<!--			-->
+
+
+
+<!-- ==========================
+CUSTOM SPACER
+=========================== -->
+<div class="spacer-cta text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="index.html#contact" class="outline-btn">hire john doe</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ==========================
+CUSTOM SPACER END
+=========================== -->
+
+
+<!-- ==========================
+CLIENT SECTION
+=========================== -->
+<div class="container-fluid">
+    <div class="row color-bg">
+        <!-- Left Image -->
+        <div class="col-md-6 nopadding features-intro-img wow fadeInLeft">
+            <div class="about-image" style="background-image:url(img/clients.png)"></div>
+        </div>
+        <!-- Clients / Testimonials -->
+        <div class="col-md-6 nopadding about-text">
+            <h6>What our clients said</h6>
+            <div id="clientSlider">
+                <ul class="slides">
+                    <li><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br>	<small>- Pete Rock, A New Tomorrow</small></p></li>
+                    <li><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br>	<small>- Michael Snowden, Creativeland CEO</small></p></li>
+                    <li><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br>	<small>- Tom Davis, GreenWonder</small></p>	</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ==========================
+CLIENTS SECTION END
+=========================== -->
+
+
+
+
+
+<!-- ==========================
+NEWSLETTER SECTION
+=========================== -->
+<section>
+    <div class="container-fluid">
+        <div class="row color-bg">
+            <div class="col-md-6 nopadding subscribe text-center">
+                <h1><i class="fa fa-paper-plane"></i><span>Subscribe our Newsletter</span></h1><!-- Heading -->
+                <form action="index.html#">
+                    <input type="text" name="" value="" placeholder="" required><!-- E-Mail -->
+                    <input type="submit" name="" value="Send"><!-- Submit Button -->
+                </form>
+            </div>
+            <div class="col-md-6 nopadding features-intro-img">
+                <div class="about-image" style="background-image:url(img/newsletter.png)"></div><!-- Right Image -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==========================
+NEWSLETTER SECTION END
+=========================== -->
+
+
+
+<!-- ==========================
+CONTACT SECTION
+=========================== -->
+<section class="text-center section-padding contact-wrap" id="hitMeUp">
+    <!-- To Top Button -->
+    <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+    <div class="container">
+        <!-- Headline -->
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="arrow">Drop <span>me</span> a line</h1>
+            </div>
+        </div>
+        <div class="row contact-details">
+            <!-- Adress Box -->
+            <div class="col-md-4">
+                <div class="dark-box box-hover">
+                    <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
+                    <p>23 Ipsum street, New York</p>
+                </div>
+            </div>
+            <!-- Phone Number Box -->
+            <div class="col-md-4">
+                <div class="dark-box box-hover">
+                    <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
+                    <p>+12 345 6789</p>
+                </div>
+            </div>
+            <!-- E-Mail Box -->
+            <div class="col-md-4">
+                <div class="dark-box box-hover">
+                    <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+                    <p><a href="index.html#">info@themewagon.com</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Google Maps (street view genapu eka) -->
+            <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1714935823529!6m8!1m7!1sN6GnyAxr5IbxEF3HfW3GyA!2m2!1d6.432360485305326!2d79.9965298344669!3f100.0003321863857!4f3.9093486394288703!5f0.7820865974627469"
+                        width="400"
+                        height="300" s
+                        tyle="border:0;"
+                        allowfullscreen="allowfullscreen"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- Contact Form -->
+            <div class="col-md-6 contact">
+                <form role="form">
+                    <!-- Name -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- E-Mail -->
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your name">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Phone Number -->
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email address">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Message Area -->
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Write you message here..." style="height:232px;"></textarea>
+                    </div>
+                    <!-- Subtmit Button -->
+                    <button type="submit" class="btn btn-send">
+                        Send message
+                    </button>
+                </form>
+            </div>
+        </div>
+        <br>
+        <!-- Social Buttons - use font-awesome, past in what you want -->
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="social-buttons">
+                    <li><a href="index.html#" class="social-btn"><i class="fa fa-dribbble"></i></a></li><!-- dribble -->
+                    <li><a href="index.html#" class="social-btn"><i class="fa fa-twitter"></i></a></li><!-- twitter -->
+                    <li><a href="index.html#" class="social-btn"><i class="fa fa-facebook"></i></a></li><!-- facebook -->
+                    <li><a href="index.html#" class="social-btn"><i class="fa fa-deviantart"></i></a></li><!-- deviantart -->
+                    <li><a href="index.html#" class="social-btn"><i class="fa fa-youtube"></i></a></li><!-- youtube -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==========================
+CONTACT SECTION END
+=========================== -->
+
+
+
+<!-- ==========================
+FOOTER SECTION
+=========================== -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>All Rights Reserved. &copy; 2015 <a href="https://www.themewagon.com">ThemeWagon</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ==========================
+FOOTER SECTION END
+=========================== -->
+
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- SmoothScroll -->
+<script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
+<!-- Bootstrap -->
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/waypoints.min.js"></script>
+<!-- classie.js -->
+<script src="js/classie.js"></script>
+<!-- FlexSlider -->
+<script src="assets/flexslider/jquery.flexslider.js"></script>
+<!-- Modernizr -->
+<script src="js/modernizr.js"></script>
+<!-- Text Rotator -->
+<script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
+<!-- Lightbox.js -->
+<script src="assets/lightbox/js/lightbox.min.js"></script>
+<!-- Google Maps -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
+<!-- Theme JavaScript Core -->
+<script src="js/main.js"></script>
+<script src="js/script.js"></script>
+
+<!--	&lt;!&ndash; GOOGLE MAPS DATA &ndash;&gt;-->
+<!--    <script type="text/javascript">-->
+<!--    // When the window has finished loading create our google map below-->
+<!--        google.maps.event.addDomListener(window, 'load', init);-->
+<!--    -->
+<!--        function init() {-->
+<!--            // Basic options for a simple Google Map-->
+<!--            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions-->
+<!--            var mapOptions = {-->
+<!--                // How zoomed in you want the map to start at (always required)-->
+<!--                zoom: 15,-->
+<!--                -->
+<!--                scrollwheel: false,-->
+
+<!--                // The latitude and longitude to center the map (always required)-->
+<!--                center: new google.maps.LatLng(40.68961985411178, -74.01618003845215), // New York -->
+
+<!--                // How you would like to style the map. -->
+<!--                // This is where you would paste any style found on Snazzy Maps.-->
+<!--                styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]-->
+<!--            };-->
+
+<!--            // Get the HTML DOM element that will contain your map -->
+<!--            // We are using a div with id="map" seen below in the <body>-->
+<!--            var mapElement = document.getElementById('googlemaps');-->
+
+<!--            // Create the Google Map using out element and options defined above-->
+<!--            var map = new google.maps.Map(mapElement, mapOptions);-->
+<!--        }-->
+<!--	-->
+<!--    </script>-->
+
+<!-- TEXT ROTATOR SETTINGS -->
+<script type="text/javascript">
+    $(".rotate").textrotator({
+        animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+        separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+        speed: 2000 // How many milliseconds until the next word show.
+    });
+</script>
+
 </body>
 </html>
