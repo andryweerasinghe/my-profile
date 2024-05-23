@@ -284,8 +284,70 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
     height: 3px;
     width: 55dvw;
     border: 0;
-    background: #192A56;
+    background: #FFF07C;
     position: absolute;
     right: 0;
     top: 22px;
+}
+
+#services{
+    position: relative;
+    height: 200vh;
+    width: 100%;
+    top: 140px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #0D1321;
+}
+
+#websites{
+    color: white;
+    position: relative;
+    height: 790px;
+    width: 88%;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#websites>h1{
+    width: 520px;
+    height: 60px;
+    color: #FFF07C;
+    font-weight: bold;
+    font-size: 48px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: auto;
+}
+
+#pos{
+    color: white;
+    position: relative;
+    height: 790px;
+    width: 88%;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#pos>h1{
+    width: 540px;
+    height: 60px;
+    color: #FFF07C;
+    font-weight: bold;
+    font-size: 48px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: auto;
 }
