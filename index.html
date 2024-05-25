@@ -98,16 +98,19 @@ HEADER SECTION
 
 <section id="services">
     <div id="websites">
-        <h1>Websites</h1>
-        <div id="website-desc">
-            <ol>
-                <li>Unique, modern and customized designs</li>
-                <li>Responsive, accessible development</li>
-                <li>Animations and interactions</li>
-                <li>Long-lasting, impactful user experience</li>
-            </ol>
-            <h2>Rs. 30000 - 50000</h2>
+        <div id="websites-left-side">
+            <h1>Websites</h1>
+            <div id="website-desc">
+                <ol>
+                    <li>Unique, modern and customized designs</li>
+                    <li>Responsive, accessible development</li>
+                    <li>Animations and interactions</li>
+                    <li>Long-lasting, impactful user experience</li>
+                </ol>
+                <h2>Rs. 30000 - 50000</h2>
+            </div>
         </div>
+        <div id="websites-right-side"></div>
     </div>
     <div id="pos">
         <h1>POS Systems</h1>
@@ -185,7 +188,7 @@ HEADER SECTION
         <a href="https://www.instagram.com/andry_mr.electrix/" target="_blank" class="instagram"></a>
     </div>
 
-    <div id="copy-rights">© 2023 Naveen Andry. All rights reserved</div>
+    <div id="copy-rights">© 2024 Naveen Andry. All rights reserved</div>
 
 </footer>
 
@@ -399,37 +402,37 @@ FOOTER SECTION END
 <script src="js/main.js"></script>
 <script src="js/script.js"></script>
 
-<!--	&lt;!&ndash; GOOGLE MAPS DATA &ndash;&gt;-->
-<!--    <script type="text/javascript">-->
-<!--    // When the window has finished loading create our google map below-->
-<!--        google.maps.event.addDomListener(window, 'load', init);-->
-<!--    -->
-<!--        function init() {-->
-<!--            // Basic options for a simple Google Map-->
-<!--            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions-->
-<!--            var mapOptions = {-->
-<!--                // How zoomed in you want the map to start at (always required)-->
-<!--                zoom: 15,-->
-<!--                -->
-<!--                scrollwheel: false,-->
+	<!-- GOOGLE MAPS DATA -->
+    <script type="text/javascript">
+    // When the window has finished loading create our google map below
+        google.maps.event.addDomListener(window, 'load', init);
 
-<!--                // The latitude and longitude to center the map (always required)-->
-<!--                center: new google.maps.LatLng(40.68961985411178, -74.01618003845215), // New York -->
+        function init() {
+            // Basic options for a simple Google Map
+            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+            var mapOptions = {
+                // How zoomed in you want the map to start at (always required)
+                zoom: 15,
 
-<!--                // How you would like to style the map. -->
-<!--                // This is where you would paste any style found on Snazzy Maps.-->
-<!--                styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]-->
-<!--            };-->
+                scrollwheel: false,
 
-<!--            // Get the HTML DOM element that will contain your map -->
-<!--            // We are using a div with id="map" seen below in the <body>-->
-<!--            var mapElement = document.getElementById('googlemaps');-->
+                // The latitude and longitude to center the map (always required)
+                center: new google.maps.LatLng(40.68961985411178, -74.01618003845215), // New York
 
-<!--            // Create the Google Map using out element and options defined above-->
-<!--            var map = new google.maps.Map(mapElement, mapOptions);-->
-<!--        }-->
-<!--	-->
-<!--    </script>-->
+                // How you would like to style the map.
+                // This is where you would paste any style found on Snazzy Maps.
+                styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]
+            };
+
+            // Get the HTML DOM element that will contain your map
+            // We are using a div with id="map" seen below in the <body>
+            var mapElement = document.getElementById('googlemaps');
+
+            // Create the Google Map using out element and options defined above
+            var map = new google.maps.Map(mapElement, mapOptions);
+        }
+
+    </script>
 
 <!-- TEXT ROTATOR SETTINGS -->
 <script type="text/javascript">
