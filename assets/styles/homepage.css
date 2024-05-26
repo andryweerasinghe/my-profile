@@ -585,3 +585,35 @@ footer>.social-media>.github{
     transition-duration: 0.2s;
 }
 
+footer>.socials>.linkedin {
+    height: 55px;
+    aspect-ratio: 1/1;
+    background: url("../images/socialMediaLogos/linkedin.jpeg") center;
+    background-size: 65px 65px;
+    margin-right: 15px;
+    border-radius: 100%;
+    transition-duration: 0.2s;
+}
+
+footer>.socials>.medium{
+    height: 55px;
+    aspect-ratio: 1/1;
+    background: url("../images/socialMediaLogos/Mediumlogo.jpeg") center no-repeat;
+    background-size: 75px 75px;
+    margin-right: 15px;
+    border-radius: 100%;
+    transition-duration: 0.2s;
+}
+
+footer>.socials>.stack-overflow{
+    height: 55px;
+    aspect-ratio: 1/1;
+    background: url("../images/socialMediaLogos/StackoverflowLogo.jpeg") center no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    border-radius: 100%;
+    transition-duration: 0.2s;
+}
+
+
+
