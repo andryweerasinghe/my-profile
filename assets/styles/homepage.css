@@ -252,16 +252,16 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
 }
 
 #about-left {
-    width: 696px;
+    width: 750px;
     height: 680px;
     position: absolute;
-    top: 0;
+    /*top: 0;*/
     left: 0;
     bottom: 0;
-    background: url("../gif/Programming (1).gif") center no-repeat;
-    background-size: cover;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    background: url("../images/matrix.gif") center no-repeat;
+    background-size: calc(500px);
+    margin-top: 40px;
+    margin-bottom: 120px;
 }
 
 #about-right {
@@ -274,7 +274,7 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
     text-align: center;
     top: 30px;
     bottom: 0;
-    right: 120px;
+    right: 30px;
     margin: auto;
 }
 
@@ -411,6 +411,16 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
     top: 0;
     /*margin: auto;*/
     margin-bottom: 20px;
+}
+
+#pos>#pos-left-side{
+    width: 598px;
+    height: 473px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: url("../images/");
 }
 
 footer>#logo-footer{
