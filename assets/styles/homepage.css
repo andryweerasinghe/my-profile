@@ -710,3 +710,12 @@ footer>.social-media>.instagram:hover {
     margin: auto;
 }
 
+#contact-details-middle>p {
+    width: 300px;
+    height: 90px;
+    margin-top: 41px;
+    color: #192A56;
+    font-weight: bold;
+    font-size: 24px;
+}
+
