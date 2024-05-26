@@ -694,3 +694,7 @@ footer>.social-media>.instagram:hover {
     background-color: rgba(25, 42, 86, 0.87);
 }
 
+::placeholder {
+    color: #E0E0E0;
+}
+
