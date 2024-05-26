@@ -550,3 +550,38 @@ footer>#logo-footer{
     border: 4px solid #E1B12C;
 }
 
+#copy-rights {
+    height: 30px;
+    width: 381px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+footer>.social-media{
+    height: 100px;
+    width: 470px;
+    position: absolute;
+    top: 120px;
+    right: 0;
+    left: 30px;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer>.social-media>.github{
+    height: 55px;
+    aspect-ratio: 1/1;
+    background: url("../images/socialMediaLogos/gihub.jpeg") center;
+    margin-right: 15px;
+    background-size: cover;
+    border-radius: 100%;
+    transition-duration: 0.2s;
+}
+
