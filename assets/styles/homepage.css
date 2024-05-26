@@ -665,5 +665,32 @@ footer>.social-media>.instagram:hover {
     color: #192A56;
 }
 
+#contact-details-left-side {
+    width: 350px;
+    height: 410px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    margin: auto;
+    border-radius: 20px;
+    border: 3px solid #eab520;
+}
 
+#contact-details-left-side>input {
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #E0E0E0;
+    background-color: rgba(25, 42, 86, 0.87);
+}
+
+#contact-details-left-side>textarea {
+    text-align: center;
+    border-radius: 20px;
+    color: #E0E0E0;
+    background-color: rgba(25, 42, 86, 0.87);
+}
 
