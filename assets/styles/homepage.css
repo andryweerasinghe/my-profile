@@ -698,3 +698,15 @@ footer>.social-media>.instagram:hover {
     color: #E0E0E0;
 }
 
+#contact-details-middle {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
