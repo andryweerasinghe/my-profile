@@ -550,6 +550,18 @@ footer>#logo-footer{
     border: 4px solid #E1B12C;
 }
 
+#footer-content{
+    width: 320px;
+    height: 220px;
+    font-size: 22px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
 #copy-rights {
     height: 30px;
     width: 381px;
@@ -585,7 +597,7 @@ footer>.social-media>.github{
     transition-duration: 0.2s;
 }
 
-footer>.socials>.linkedin {
+footer>.social-media>.linkedin {
     height: 55px;
     aspect-ratio: 1/1;
     background: url("../images/socialMediaLogos/linkedin.jpeg") center;
@@ -595,7 +607,7 @@ footer>.socials>.linkedin {
     transition-duration: 0.2s;
 }
 
-footer>.socials>.medium{
+footer>.social-media>.medium{
     height: 55px;
     aspect-ratio: 1/1;
     background: url("../images/socialMediaLogos/Mediumlogo.jpeg") center no-repeat;
@@ -605,7 +617,7 @@ footer>.socials>.medium{
     transition-duration: 0.2s;
 }
 
-footer>.socials>.stack-overflow{
+footer>.social-media>.stack-overflow{
     height: 55px;
     aspect-ratio: 1/1;
     background: url("../images/socialMediaLogos/StackoverflowLogo.jpeg") center no-repeat;
@@ -613,6 +625,40 @@ footer>.socials>.stack-overflow{
     margin-right: 15px;
     border-radius: 100%;
     transition-duration: 0.2s;
+}
+
+footer>.social-media>.instagram{
+    height: 56px;
+    aspect-ratio: 1/1;
+    background: url("../images/socialMediaLogos/insta-removebg-preview.png") no-repeat -8px -8px;
+    background-size: 74px 74px;
+    margin-right: 15px;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+}
+
+#hero-section>#left-side>.social-media>.github:hover,
+footer>.social-media>.github:hover,
+#hero-section>#left-side>.social-media>.linkedin:hover,
+footer>.social-media>.linkedin:hover,
+#hero-section>#left-side>.social-media>.medium:hover,
+footer>.social-media>.medium:hover,
+#hero-section>#left-side>.social-media>.stack-overflow:hover,
+footer>.social-media>.stack-overflow:hover,
+#hero-section>#left-side>.social-media>.instagram:hover,
+footer>.social-media>.instagram:hover {
+    border: 3px solid #E0E0E0;
+}
+
+#contact-details-section{
+    position: relative;
+    height: 500px;
+    width: 88%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 
