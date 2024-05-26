@@ -719,3 +719,15 @@ footer>.social-media>.instagram:hover {
     font-size: 24px;
 }
 
+#contact-details-right-side {
+    width: 530px;
+    height: 470px;
+    position: absolute;
+    background: url("/assets/gif/Social media.gif") center no-repeat;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
