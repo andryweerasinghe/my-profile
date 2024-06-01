@@ -97,10 +97,19 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
     /*z-index: 2;*/
     clip-path: ellipse(92% 58% at 12% 1%);
 }
+#theme {
+    font-size: 65px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 617;
+    font-style: normal;
+    color: #FFF07C;
+}
 #hero-section>#left-side {
     color: #E0E0E0;
     font-weight: 400;
     font-size: 35px;
+    height: 618px;
+    width: 598px;
 }
 #hero-section>#left-side>.social-media {
     height: 100px;
@@ -182,9 +191,9 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
 .professions {
     width: 420px;
     height: 40px;
-    top: 192px;
+    top: 341px;
     position: absolute;
-    left: 190px;
+    left: 267px;
     overflow: hidden;
 }
 
@@ -292,10 +301,10 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
 }
 
 #services{
-    position: inherit;
-    height: 2000px;
+    position: absolute;
+    height: 1563px;
     width: 100%;
-    top: 140px;
+    top: 1469px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -324,7 +333,7 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
 }
 
 #websites>#websites-left-side{
-    height: 400px;
+    height: 474px;
     width: 500px;
     border: 3px solid #FFF07C;
     border-radius: 40px;
@@ -430,12 +439,15 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
 }
 
 #pos>#pos-right-side{
-    height: 75vh;
-    width: 75vh;
-    border: 1px solid red;
+    height: 473px;
+    width: 500px;
+    border: 3px solid #FFF07C;
     top: 0;
     bottom: 0;
     right: 0;
+    position: absolute;
+    border-radius: 40px;
+    overflow: hidden;
 }
 
 #pos>#pos-right-side>h1{
@@ -449,9 +461,7 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
     position: absolute;
     right: 0;
     top: 0;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    /*margin: auto;*/
+    left: 40px;
 }
 
 #pos>#pos-right-side>#pos-desc{
@@ -507,8 +517,8 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
 
 footer{
     position: relative;
-    height: 360px;
-    top: 210px;
+    height: 523px;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -654,7 +664,7 @@ footer>.social-media>.instagram:hover {
     position: relative;
     height: 500px;
     width: 88%;
-    top: 0;
+    top: 1200px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -662,7 +672,7 @@ footer>.social-media>.instagram:hover {
 }
 
 #contact-details-left-side>h2{
-    color: #192A56;
+    color: #0D1321;
 }
 
 #contact-details-left-side {
@@ -684,14 +694,14 @@ footer>.social-media>.instagram:hover {
     border-radius: 20px;
     text-align: center;
     color: #E0E0E0;
-    background-color: rgba(25, 42, 86, 0.87);
+    background-color: #0D1321;
 }
 
 #contact-details-left-side>textarea {
     text-align: center;
     border-radius: 20px;
     color: #E0E0E0;
-    background-color: rgba(25, 42, 86, 0.87);
+    background-color: #0D1321;
 }
 
 ::placeholder {
@@ -714,20 +724,26 @@ footer>.social-media>.instagram:hover {
     width: 300px;
     height: 90px;
     margin-top: 41px;
-    color: #192A56;
+    color: #0D1321;
     font-weight: bold;
     font-size: 24px;
 }
 
 #contact-details-right-side {
-    width: 530px;
-    height: 470px;
+    width: 320px;
+    height: 320px;
     position: absolute;
-    background: url("/assets/gif/Social media.gif") center no-repeat;
+    background: url("/assets/images/Social media.gif") center no-repeat;
     background-size: cover;
     top: 0;
-    bottom: 0;
+    bottom: 30px;
     right: 0;
     margin: auto;
+}
+
+#maps {
+    position: absolute;
+    top: 1200px;
+    margin-left: 76px;
 }
 
