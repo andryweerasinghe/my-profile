@@ -870,3 +870,19 @@ footer>.social-media>.instagram:hover {
     }
 }
 
+/*brake points*/
+@media all and (max-width: 1440px) {
+
+    body {
+        overflow-x: hidden; !important;
+    }
+
+    header>nav {
+        height: fit-content;
+        position: absolute;
+        font-weight: 400;
+        font-size: 22px;
+        right: 30px;
+        bottom: 28%;
+    }
+
