@@ -1040,6 +1040,15 @@ footer>.social-media>.instagram:hover {
     header>img {
         left: 15px;
     }
+
+    header>nav {
+        height: fit-content;
+        position: absolute;
+        font-weight: 400;
+        font-size: 22px;
+        right: 20px;
+        bottom: 28%;
+    }
 }
 
 
