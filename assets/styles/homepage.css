@@ -1049,6 +1049,17 @@ footer>.social-media>.instagram:hover {
         right: 20px;
         bottom: 28%;
     }
+
+    header>nav>a {
+        color: #E0E0E0;
+        text-decoration: none;
+        margin-right: 5px;
+        width: 122px;
+        height: 29px;
+        display: inline-block;
+        text-align: center;
+        transition: .3s ease-in-out;
+    }
 }
 
 
