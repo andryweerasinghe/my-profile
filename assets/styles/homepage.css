@@ -1071,6 +1071,20 @@ footer>.social-media>.instagram:hover {
         right: 0;
         margin: auto;
     }
+
+    #hero-section>#left-side>.socials {
+        bottom: 35px;
+        left: -32px;
+    }
+
+    #hero-section>#left-side>.socials>.github {
+        height: 65px;
+    }
+
+    #hero-section>#left-side>.socials>.linkedin {
+        height: 65px;
+        background-size: 80px 80px;
+    }
 }
 
 
