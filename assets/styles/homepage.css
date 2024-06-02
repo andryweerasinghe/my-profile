@@ -1036,6 +1036,10 @@ footer>.social-media>.instagram:hover {
         right: 0;
         z-index: -1;
     }
+
+    header>img {
+        left: 15px;
+    }
 }
 
 
