@@ -899,16 +899,17 @@ footer>.social-media>.instagram:hover {
 
 
     #hero-section>#right-side {
-        width: 609px;
-        height: 564px;
+        width: 689px;
+        height: 837px;
         position: absolute;
-        top: 0;
+        top: -37px;
         right: 0;
         bottom: 0;
         background: url("../images/its_me.png") center no-repeat;
         background-size: cover;
         margin-top: 50px;
         margin-bottom: 50px;
+        clip-path: ellipse(92% 59% at 5% 6%);
     }
 
     #introduction>h3 {
@@ -1014,6 +1015,14 @@ footer>.social-media>.instagram:hover {
         background-size: cover;
         margin-top: 80px;
         margin-bottom: 80px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+
+    body {
+        overflow-x: hidden;
+    !important;
     }
 }
 
