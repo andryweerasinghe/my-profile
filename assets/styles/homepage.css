@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Canavar';
+    src: url('../font/CANAVAR.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wellfleet-regular {
+    font-family: "Wellfleet", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -11,8 +24,8 @@ html{
  #ellipse{
      background-color: #0D1321;
      width: 100%;
-     height: 1290px;
-     clip-path: ellipse(92% 58% at 12% 1%);
+     height: 1075px;
+     clip-path: ellipse(89% 63% at 12% 1%);
      position: absolute;
      top: 0;
      left: 0;
@@ -56,7 +69,6 @@ header>nav {
 }
 header>nav>a {
     color: #E0E0E0;
-    text-decoration: none;
     margin-right: 35px;
     width: 122px;
     height: 29px;
@@ -99,11 +111,14 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
     clip-path: ellipse(92% 58% at 12% 1%);
 }
 #theme {
-    font-size: 65px;
-    font-family: "Abril Fatface", serif;
+    font-size: 47px;
+    font-family: "Sen", serif;
     font-weight: 617;
     font-style: normal;
     color: #FFF07C;
+    width: 882px;
+    position: relative;
+    bottom: 56px;
 }
 #hero-section>#left-side {
     color: #E0E0E0;
@@ -181,20 +196,26 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
     margin: auto;
 }
 
-#introduction>h2>#name {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 45px;
+#introduction>#name {
+    font-family: "Canavar", sans-serif;
+    font-size: 64px;
     color: #E1B12C;
+    left: 77px;
+    position: absolute;
+    bottom: 223px;
+}
+
+#introduction>#name>#andry{
+    left: 62px;
+    position: absolute;
 }
 
 .professions {
     width: 420px;
     height: 40px;
-    top: 343px;
+    top: 176px;
     position: absolute;
-    left: 0px;
+    left: 280px;
     overflow: hidden;
 }
 
@@ -268,7 +289,7 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
     top: 0;
     left: 0;
     bottom: 65px;
-    background: url("../images/matrix.gif") center no-repeat;
+    background: url("../images/work-home-concept-design-freelance-man-working-laptop-her-house.png") center no-repeat;
     background-size: calc(550px);
     margin: auto;
 }
@@ -277,6 +298,8 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
     height: 400px;
     width: 741px;
     position: absolute;
+    font-family: 'Wellfleet', sans-serif;
+    text-decoration: overline;
     font-weight: bold;
     color: #0D1321;
     font-size: 28px;
@@ -315,7 +338,7 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
 }
 
 #websites{
-    font-family: 'Arial', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 20px;
     color: white;
     font-weight: 400;
@@ -335,8 +358,6 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
 #websites>#websites-left-side{
     height: 474px;
     width: 500px;
-    border: 3px solid #FFF07C;
-    border-radius: 40px;
 }
 
 #websites-right-side{
@@ -346,17 +367,14 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
     top: 0;
     right: 0;
     /*bottom: 0;*/
-    background: url("../images/website-gif.gif") center no-repeat;
+    background: url("../images/webite-designing.png") center no-repeat;
     background-size: cover;
     margin-top: 0;
     margin-bottom: 80px;
-    border: 3px solid #FFF07C;
-    border-radius: 40px;
-    overflow: hidden;
 }
 
 #websites>#websites-left-side>h1{
-    font-family: 'Georgia', serif;
+    font-family: 'Rubik', serif;
     font-weight: 700;
     width: 520px;
     height: 60px;
@@ -398,7 +416,7 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
 }
 
 #pos{
-    font-family: 'Arial', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 20px;
     color: white;
     line-height: 2;
@@ -429,28 +447,22 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
 
 #pos>#pos-left-side{
     width: 598px;
-    height: 473px;
+    height: 519px;
     position: absolute;
-    top: 0;
+    top: -48px;
     left: 0;
     bottom: 0;
-    background: url("../images/pos-animation-2.gif");
+    background: url("../images/pos-development.png");
     background-size: cover;
-    border: 3px solid #FFF07C;
-    border-radius: 40px;
-    overflow: hidden;
 }
 
 #pos>#pos-right-side{
     height: 473px;
     width: 500px;
-    border: 3px solid #FFF07C;
     top: 0;
     bottom: 0;
     right: 0;
     position: absolute;
-    border-radius: 40px;
-    overflow: hidden;
 }
 
 #pos>#pos-right-side>h1{
@@ -469,10 +481,10 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
 
 #pos>#pos-right-side>#pos-desc{
     height: 300px;
-    width: 520px;
+    width: 540px;
     position: absolute;
     right: 0;
-    top: 100px;
+    top: 93px;
     margin: auto;
 }
 
@@ -491,10 +503,6 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
     list-style: decimal inside;
     margin-left: 20px;
     padding: 25px;
-}
-
-#pos-desc>ol>li{
-    margin-bottom: 10px;
 }
 
 #custom{
@@ -902,14 +910,14 @@ footer>.social-media>.instagram:hover {
         width: 689px;
         height: 837px;
         position: absolute;
-        top: -37px;
+        top: -70px;
         right: 0;
         bottom: 0;
         background: url("../images/its_me.png") center no-repeat;
         background-size: cover;
         margin-top: 50px;
         margin-bottom: 50px;
-        clip-path: ellipse(92% 59% at 5% 6%);
+        clip-path: ellipse(94% 50% at 5% 6%);
     }
 
     #introduction>h3 {
